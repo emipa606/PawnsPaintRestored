@@ -1,0 +1,7 @@
+Hi, if you're here to edit/add some art:
+There is a template next to this text file
+Open it (I use paint.net)
+Now, remove the text I've written there and draw/add a photo you want.
+When you're done, put the file in the "Painting" folder and name it 'Painting'and some number in parenthesis
+Ex: Painting (45).png
+Then you're done, should be working!
