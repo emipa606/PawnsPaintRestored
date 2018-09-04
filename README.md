@@ -4,7 +4,8 @@ Pawns Paint! Restored is a variation/continuation of the amazing Pawns Paint! by
 
 The only difference between my version and Willie's (other than updating for B18) is that I changed the paintings to be all real-life public domain paintings.
 
-## Don't like the paintings? Or want to add/remove some?
+### Don't like the paintings? Or want to add/remove some?
+
 You can change them! First go to the following location on your hard drive:
 <Steam installation location>\SteamApps\workshop\content\294100\1380798383\Textures\Things\Building\Art
 
@@ -12,8 +13,13 @@ There are templates made with paint.net and Photoshop in this folder. All of the
 
 If you want Wille's paintings back, change the "Painting" folder to "New Painting" and the "Old Painting" folder to "Painting".
 
-## Possible future features
+### Possible future features
+
 * Rotatable easels and paintings
 * Wall-mounted paintings
 * Larger paintings
 * ~~World peace~~
+
+### Credits
+
+All credit goes to WillieLambo for making this wonderful mod. I just updated it.
