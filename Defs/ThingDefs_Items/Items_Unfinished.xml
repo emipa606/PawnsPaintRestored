@@ -15,13 +15,14 @@
     <isUnfinishedThing>true</isUnfinishedThing>
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <selectable>true</selectable>
-    <tradeability>Never</tradeability>
+    <tradeability>None</tradeability>
     <drawerType>RealtimeOnly</drawerType>
     <!-- For CompForbiddable -->
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
 			<DeteriorationRate>2.0</DeteriorationRate>
 			<Beauty>-6</Beauty>
+			<Mass>3</Mass>
 		</statBases>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
@@ -41,6 +42,10 @@
       <texPath>Things/Item/UnfinishedPainting</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>BuildingsArt</li>
+    </thingCategories>
+
   </ThingDef>
 
   <!-- ======================= Minified things ========================= -->
@@ -54,6 +59,9 @@
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <!-- for CompForbiddable -->
     <drawerType>RealtimeOnly</drawerType>
+		<statBases>
+    	<Mass>3</Mass>
+		</statBases>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
     </comps>
@@ -65,8 +73,9 @@
   <ThingDef ParentName="MinifiedBase">
     <defName>MinifiedPainting</defName>
     <label>painting</label>
-    <thingCategories>
-      <li>Art</li>
+    <thingClass>MinifiedThing</thingClass>
+		<thingCategories>
+      <li>BuildingsArt</li>
     </thingCategories>
     <inspectorTabs>
       <li>ITab_Art</li>

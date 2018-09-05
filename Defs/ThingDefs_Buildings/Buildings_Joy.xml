@@ -7,6 +7,9 @@
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <useHitPoints>true</useHitPoints>
+		<thingCategories>
+      <li>BuildingsArt</li>
+    </thingCategories>
     <statBases>
       <Flammability>1.0</Flammability>
     </statBases>
@@ -55,18 +58,15 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
     <socialPropernessMatters>true</socialPropernessMatters>
-    <building>
-      <isJoySource>true</isJoySource>
-    </building>
     <statBases>
       <WorkToBuild>18000</WorkToBuild>
       <MaxHitPoints>75</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <Mass>7.5</Mass>
       <Beauty>40</Beauty>
-      <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+      <JoyGainFactor>1</JoyGainFactor>
     </statBases>
 		<comps>
 			<li Class="CompProperties_RoomIdentifier">

@@ -10,7 +10,7 @@
       <li>Painting</li>
     </thingDefs>
     <jobDef>ViewPainting</jobDef>
-    <joyKind>Study</joyKind>
+    <joyKind>Meditative</joyKind>
     <unroofedOnly>true</unroofedOnly>
     <requiredCapacities>
       <li>Sight</li>

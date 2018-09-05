@@ -10,7 +10,7 @@
     <joySkill>Artistic</joySkill>
     <joyXpPerTick>0.004</joyXpPerTick>
     <joyGainRate>1.2</joyGainRate>
-    <joyKind>Study</joyKind>
+    <joyKind>Meditative</joyKind>
   </JobDef>
   
 </Defs>
