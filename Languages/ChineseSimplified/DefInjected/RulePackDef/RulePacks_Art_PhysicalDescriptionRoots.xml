@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Different physical description roots for different kinds of artworks. 
+      Added to artworks with tales and taleless art. -->
+
+  <ArtDescription_Painting.rulePack.rulesStrings.0>physical_description_root->这幅画是用[depiction]的[image]画的。 [desc_sentence_group]</ArtDescription_Painting.rulePack.rulesStrings.0>
+  <ArtDescription_Painting.rulePack.rulesStrings.1>physical_description_root->这幅画描绘了[depiction]的[image]意象。 [desc_sentence_group]</ArtDescription_Painting.rulePack.rulesStrings.1>
+  <ArtDescription_Painting.rulePack.rulesStrings.2>physical_description_root->这幅画中的色彩[depicts] [image]。 [desc_sentence_group]</ArtDescription_Painting.rulePack.rulesStrings.2>
+
+
+</LanguageData>

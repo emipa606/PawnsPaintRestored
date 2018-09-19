@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableWriting.label>画架</TableWriting.label>
+  <TableWriting.description>一个用于画画的画架。</TableWriting.description>
+  <TableWriting_Blueprint.label>画架（蓝图）</TableWriting_Blueprint.label>
+  <TableWriting_Frame.label>画架（建造中）</TableWriting_Frame.label>
+  <TableWriting_Frame.description>一个用于画画的画架。</TableWriting_Frame.description>
+
+
+</LanguageData>
