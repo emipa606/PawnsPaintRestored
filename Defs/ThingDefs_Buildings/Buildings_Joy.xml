@@ -80,8 +80,11 @@
     </recipeMaker>
     <costList>
       <WoodLog>15</WoodLog>
-      <Cloth>25</Cloth>
     </costList>
+ 		<stuffCategories>
+   		<li>Fabric</li>
+ 		</stuffCategories>
+ 		<costStuffCount>25</costStuffCount>
   </ThingDef>
   
 </Defs>
