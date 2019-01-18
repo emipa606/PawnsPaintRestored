@@ -1,23 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-  <ThingDef Name="BenchBase" ParentName="BuildingBase" Abstract="True">
-    <castEdgeShadows>false</castEdgeShadows>
-		<building>
-			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
-			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
-		</building>
-		<comps>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
-		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
-		</placeWorkers>
-  </ThingDef>
-
   
   <ThingDef ParentName="BenchBase">
     <defName>TableWriting</defName>
