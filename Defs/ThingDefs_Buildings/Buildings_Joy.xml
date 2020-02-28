@@ -26,7 +26,7 @@
       <li>ITab_Art</li>
     </inspectorTabs>
     <recipeMaker>
-      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Artistic</workSkill>
       <workAmount>25500</workAmount>
       <unfinishedThingDef>UnfinishedPainting</unfinishedThingDef>
@@ -68,11 +68,6 @@
       <Beauty>40</Beauty>
       <JoyGainFactor>1</JoyGainFactor>
     </statBases>
-		<comps>
-			<li Class="CompProperties_RoomIdentifier">
-				<roomStat>Impressiveness</roomStat>
-			</li>
-		</comps>
     <recipeMaker>
       <recipeUsers>
         <li>TableWriting</li>
