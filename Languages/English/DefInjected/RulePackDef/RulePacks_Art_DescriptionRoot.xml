@@ -1,16 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!--[Core] <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.0>r_art_description->[physical_description_root] [context_sentence]</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.0>-->
   <!--[Core] <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.1>circumstance_group->[circumstance_phrase]</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.1>-->
   <!--[Core] <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.2>desc_sentence_group->[desc_sentence] [style_group]</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.2>-->
   <!--[Core] <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.3>context_sentence->This [depiction] refers to [tale_noun] on [DATE].</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.3>-->
   <!--[Core] <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.4>context_sentence->This [depiction] relates to [tale_noun] on [DATE].</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.4>-->
   <!--[Core] <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.5>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.5>-->
-
   <!--[Core] <ArtDescriptionRoot_Taleless.rulePack.rulesStrings.0>r_art_description->[physical_description_root]</ArtDescriptionRoot_Taleless.rulePack.rulesStrings.0>-->
   <!--[Core] <ArtDescriptionRoot_Taleless.rulePack.rulesStrings.1>desc_sentence_group->[style_group]</ArtDescriptionRoot_Taleless.rulePack.rulesStrings.1>-->
-
   <!--[Core] <ArtDescriptionUtility_Global.rulePack.rulesStrings.0>style_group->[artextra_clause]. [style_clause].</ArtDescriptionUtility_Global.rulePack.rulesStrings.0>-->
   <!--[Core] <ArtDescriptionUtility_Global.rulePack.rulesStrings.1>style_group->[style_clause]. [artconjunction] [artextra_clause].</ArtDescriptionUtility_Global.rulePack.rulesStrings.1>-->
   <!--[Core] <ArtDescriptionUtility_Global.rulePack.rulesStrings.2>style_group->[style_clause].</ArtDescriptionUtility_Global.rulePack.rulesStrings.2>-->
@@ -182,6 +179,4 @@
   <!--[Core] <ArtDescriptionUtility_Global.rulePack.rulesStrings.168>artstyle_adj->erotic</ArtDescriptionUtility_Global.rulePack.rulesStrings.168>-->
   <!--[Core] <ArtDescriptionUtility_Global.rulePack.rulesStrings.169>artstyle_adj->sensual</ArtDescriptionUtility_Global.rulePack.rulesStrings.169>-->
   <!--[Core] <ArtDescriptionUtility_Global.rulePack.rulesStrings.170>artstyle_adj->heartfelt</ArtDescriptionUtility_Global.rulePack.rulesStrings.170>-->
-
-
 </LanguageData>

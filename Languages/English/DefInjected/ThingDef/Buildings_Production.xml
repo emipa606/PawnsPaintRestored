@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <TableWriting.label>Easel</TableWriting.label>
   <TableWriting.description>An easel for painting.</TableWriting.description>
   <TableWriting_Blueprint.label>Easel (blueprint)</TableWriting_Blueprint.label>
   <TableWriting_Frame.label>Easel (building)</TableWriting_Frame.label>
   <TableWriting_Frame.description>An easel for painting.</TableWriting_Frame.description>
-
-
 </LanguageData>

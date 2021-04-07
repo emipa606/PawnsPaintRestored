@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!--[Core] <TalelessImages.rulePack.rulesStrings.0>image->a solitary [Character] [desc_pawn]</TalelessImages.rulePack.rulesStrings.0>-->
   <!--[Core] <TalelessImages.rulePack.rulesStrings.1>image->a solitary [Character] [desc_pawn] near a [TerrainFeature]</TalelessImages.rulePack.rulesStrings.1>-->
   <!--[Core] <TalelessImages.rulePack.rulesStrings.2>image->a solitary [Character] [desc_pawn] near a [Community]</TalelessImages.rulePack.rulesStrings.2>-->
@@ -35,6 +34,4 @@
   <!--[Core] <TalelessImages.rulePack.rulesStrings.31>desc_pawn->riding on a [Animal] wearing a [Apparel]</TalelessImages.rulePack.rulesStrings.31>-->
   <!--[Core] <TalelessImages.rulePack.rulesStrings.32>desc_pawn->looking [AdjectiveAny]</TalelessImages.rulePack.rulesStrings.32>-->
   <!--[Core] <TalelessImages.rulePack.rulesStrings.33>desc_pawn->covered in [Gore]</TalelessImages.rulePack.rulesStrings.33>-->
-
-
 </LanguageData>

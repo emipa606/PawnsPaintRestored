@@ -1,12 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Pawns Paint! Restored</name>
+  <name>Pawns Paint! Restored (Continued)</name>
+  <packageId>Mlie.PawnsPaintRestored</packageId>
   <author>Faeldray, original by Willelbini</author>
-  <url>https://steamcommunity.com/id/faeldray/myworkshopfiles/?appid=294100</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<packageId>faeldray.pawnspaint</packageId>
-  <description>Let your colonists paint!</description>
+  <url>https://github.com/emipa606/PawnsPaintRestored</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Faeldray, original by Willelbinis mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1541281528
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/PawnsPaintRestored][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+[b]Pawns Paint! Restored[/b] is a variation/continuation of the amazing [url=https://steamcommunity.com/sharedfiles/filedetails/?id=917248300]Pawns Paint![/url] by [url=https://steamcommunity.com/id/Wumbi77]WillieLambo[/url]. When Willie was unable to continue updating it, I really missed it in my games so I made a version for my own personal use. After getting Wille's approval, I'm now sharing it on the Workshop for all to enjoy!
+
+The only major difference between my version and Willie's is that I changed the paintings to be all real-life public domain paintings.
+
+[h1]Don't like the paintings? Or want to add/remove some?[/h1]
+You can change them! They are located in the following folder on your hard drive:
+[b]Steam installation location\SteamApps\workshop\content\294100\1503685494\Textures\Things\Building\Art[/b]
+
+If you'd like to make your own paintings, you can [url=https://github.com/faeldray/PawnsPaintRestored/releases/tag/source]download templates[/url] that were made with paint.net and Photoshop. All of the paintings that get loaded into a game are located in your local "Painting" folder, so you can add or remove them in there.
+
+If you want Wille's paintings back, download and unzip [url=https://github.com/faeldray/PawnsPaintRestored/releases/tag/paintings]this file[/url], delete the "Painting" folder on your computer, and paste the new "Painting" folder in its place.
+
+[h1]Possible future features[/h1]
+[list]
+[*]Rotatable easels and paintings
+[*]Wall-mounted paintings
+[*]Larger paintings
+[*][strike]World peace[/strike]
+[/list]
+
+[h1]Non-Steam download[/h1]
+[list]
+[*][url=https://github.com/faeldray/PawnsPaintRestored/releases]Github[/url]
+[/list]
+
+[h1]Previous versions[/h1]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1503685494]Beta 19[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1380798383]Beta 18[/url]
+[/list]
+
+[h1]Check out my other mods[/h1]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1638624908]Forbidden Temperatures[/url] - Allows your campfires, passive coolers, and torch lamps to be forbiddable.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1541281864]Where's the gravel?[/url] - Make gravel (AKA poor soil) much easier to see [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1541282175](Also in available in gray)[/url]
+[/list]
+
+[h1]Credits[/h1]
+[list]
+[*]All credit goes to [url=https://steamcommunity.com/id/Wumbi77]WillieLambo[/url] for making this wonderful mod. I just updated it.
+[*][url=https://steamcommunity.com/profiles/76561198380853165]ThirdEye[/url] for the Simplified Chinese translation.
+[/list]
+
+
+
+
+The description for the original mod is below:
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Let your colonists paint!
+Paintings give beauty and lets pawns look at them for joy.
+
+This mod lets your colonists build an easel and make paintings from cloth and wood.
+Colonists paint whatever they feel like, and sometimes it's some weird *#@!.
+
+The paintings are unfortunately not rotatable, which is a shame. I've tried and tried to make it work but having both random textures and make it rotatable doesn't seem possible.
+
+Currently on version Beta 18!! ---
+Beta 18 link (big thanks to Jibbles for the files!):
+https://www.dropbox.com/s/fll7mrb3uguobmp/Pawns%20Paint%20B18.zip?dl=0
+Alpha 17 link:
+https://www.dropbox.com/s/t7xazp7dlh7tj0f/Pawns%20Paint%20A17.zip?dl=0
+Alpha 16 link:
+https://www.dropbox.com/s/om33yulm6g1bsyq/Pawns%20Paint%20A16.zip?dl=0
+
+The idea is that every painting is randomized from a folder full of paintings.
+If you have any ideas for paintings or balancing suggestions, please let me know.
+
+If you want to add/remove custom paintings, this is the directory,
+Paste this in your windows search:
+Your harddrive:\Program Files (x86)\Steam\SteamApps\workshop\content\294100\917248300\Textures\Things\Building\Art
+
+...And smash that subscribe button!
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

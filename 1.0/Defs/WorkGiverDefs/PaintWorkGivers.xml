@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsMakePaint</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Art</workType>
+    <priorityInType>100</priorityInType>
+    <prioritizeSustains>true</prioritizeSustains>
+    <fixedBillGiverDefs>
+      <li>TableWriting</li>
+    </fixedBillGiverDefs>
+    <verb>paint</verb>
+    <gerund>painting at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>
