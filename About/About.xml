@@ -15,6 +15,8 @@
 Update of Faeldray, original by Willelbinis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1541281528
 
+- Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1537873717]Selectable Sculpture Graphic[/url]
+
 [img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
 [table]
@@ -31,7 +33,7 @@ The only major difference between my version and Willie's is that I changed the 
 
 [h1]Don't like the paintings? Or want to add/remove some?[/h1]
 You can change them! They are located in the following folder on your hard drive:
-[b]Steam installation location\SteamApps\workshop\content\294100\1503685494\Textures\Things\Building\Art[/b]
+[b]Steam installation location\SteamApps\workshop\content\294100\2449797994\Textures\Things\Building\Art[/b]
 
 If you'd like to make your own paintings, you can [url=https://github.com/faeldray/PawnsPaintRestored/releases/tag/source]download templates[/url] that were made with paint.net and Photoshop. All of the paintings that get loaded into a game are located in your local "Painting" folder, so you can add or remove them in there.
 
@@ -110,4 +112,3 @@ Your harddrive:\Program Files (x86)\Steam\SteamApps\workshop\content\294100\9172
 [/list]
 </description>
 </ModMetaData>
-
