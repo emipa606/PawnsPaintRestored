@@ -24,6 +24,9 @@
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
+    <tradeTags>
+      <li>Art</li>
+    </tradeTags>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Artistic</workSkill>
