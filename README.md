@@ -6,6 +6,7 @@ Update of Faeldray, original by Willelbinis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1541281528
 
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=1537873717]Selectable Sculpture Graphic
+- Added trading-tags
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
@@ -21,18 +22,18 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1541281528
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
-**Pawns Paint! Restored** is a variation/continuation of the amazing https://steamcommunity.com/sharedfiles/filedetails/?id=917248300]Pawns Paint! by https://steamcommunity.com/id/Wumbi77]WillieLambo. When Willie was unable to continue updating it, I really missed it in my games so I made a version for my own personal use. After getting Wille's approval, I'm now sharing it on the Workshop for all to enjoy!
+**Pawns Paint! Restored** is a variation/continuation of the amazing https://steamcommunity.com/sharedfiles/filedetails/?id=917248300]Pawns Paint! by https://steamcommunity.com/id/Wumbi77]WillieLambo. When Willie was unable to continue updating it, I really missed it in my games so I made a version for my own personal use. After getting Wille&apos;s approval, I&apos;m now sharing it on the Workshop for all to enjoy!
 
-The only major difference between my version and Willie's is that I changed the paintings to be all real-life public domain paintings.
+The only major difference between my version and Willie&apos;s is that I changed the paintings to be all real-life public domain paintings.
 
-# Don't like the paintings? Or want to add/remove some?
+# Don&apos;t like the paintings? Or want to add/remove some?
 
 You can change them! They are located in the following folder on your hard drive:
 **Steam installation location\SteamApps\workshop\content\294100\2449797994\Textures\Things\Building\Art**
 
-If you'd like to make your own paintings, you can https://github.com/faeldray/PawnsPaintRestored/releases/tag/source]download templates that were made with paint.net and Photoshop. All of the paintings that get loaded into a game are located in your local "Painting" folder, so you can add or remove them in there.
+If you&apos;d like to make your own paintings, you can https://github.com/faeldray/PawnsPaintRestored/releases/tag/source]download templates that were made with paint.net and Photoshop. All of the paintings that get loaded into a game are located in your local &quot;Painting&quot; folder, so you can add or remove them in there.
 
-If you want Wille's paintings back, download and unzip https://github.com/faeldray/PawnsPaintRestored/releases/tag/paintings]this file, delete the "Painting" folder on your computer, and paste the new "Painting" folder in its place.
+If you want Wille&apos;s paintings back, download and unzip https://github.com/faeldray/PawnsPaintRestored/releases/tag/paintings]this file, delete the &quot;Painting&quot; folder on your computer, and paste the new &quot;Painting&quot; folder in its place.
 
 # Possible future features
 
@@ -67,7 +68,7 @@ If you want Wille's paintings back, download and unzip https://github.com/faeldr
 
 
 - https://steamcommunity.com/sharedfiles/filedetails/?id=1638624908]Forbidden Temperatures - Allows your campfires, passive coolers, and torch lamps to be forbiddable.
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1541281864]Where's the gravel? - Make gravel (AKA poor soil) much easier to see https://steamcommunity.com/sharedfiles/filedetails/?id=1541282175](Also in available in gray)
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1541281864]Where&apos;s the gravel? - Make gravel (AKA poor soil) much easier to see https://steamcommunity.com/sharedfiles/filedetails/?id=1541282175](Also in available in gray)
 
 
 
@@ -90,9 +91,9 @@ Let your colonists paint!
 Paintings give beauty and lets pawns look at them for joy.
 
 This mod lets your colonists build an easel and make paintings from cloth and wood.
-Colonists paint whatever they feel like, and sometimes it's some weird *#@!.
+Colonists paint whatever they feel like, and sometimes it&apos;s some weird *#@!.
 
-The paintings are unfortunately not rotatable, which is a shame. I've tried and tried to make it work but having both random textures and make it rotatable doesn't seem possible.
+The paintings are unfortunately not rotatable, which is a shame. I&apos;ve tried and tried to make it work but having both random textures and make it rotatable doesn&apos;t seem possible.
 
 Currently on version Beta 18!! ---
 Beta 18 link (big thanks to Jibbles for the files!):
