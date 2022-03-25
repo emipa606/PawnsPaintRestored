@@ -3,7 +3,7 @@
   <JobDef>
     <defName>ViewPainting</defName>
     <driverClass>JobDriver_WatchBuilding</driverClass>
-    <reportString>viewing paiting.</reportString>
+    <reportString>viewing painting.</reportString>
     <joyDuration>4000</joyDuration>
     <joyMaxParticipants>1</joyMaxParticipants>
     <joySkill>Artistic</joySkill>
