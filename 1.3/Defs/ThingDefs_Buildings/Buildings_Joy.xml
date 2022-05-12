@@ -82,4 +82,54 @@
     </stuffCategories>
     <costStuffCount>25</costStuffCount>
   </ThingDef>
+  <ThingDef ParentName="PaintingBase">
+    <defName>PaintingOnWall</defName>
+    <label>wallhung painting</label>
+    <description>Slightly smaller painting with a wallmount. It's very calming to look at.</description>
+    <graphicData>
+      <texPath>Things/Building/Art/Wallart</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawRotated>false</drawRotated>
+      <drawOffset>(0,0,-0.3)</drawOffset>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <fillPercent>0.1</fillPercent>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>0</pathCost>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <clearBuildingArea>false</clearBuildingArea>
+    <building>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <WorkToBuild>17000</WorkToBuild>
+      <MaxHitPoints>70</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>5</Mass>
+      <Beauty>35</Beauty>
+      <JoyGainFactor>0.9</JoyGainFactor>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableWriting</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <placeWorkers>
+      <li>PawnsPaintRestored.Painting_PlaceWorker</li>
+    </placeWorkers>
+  </ThingDef>
 </Defs>

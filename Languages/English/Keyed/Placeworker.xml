@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PPR.onsupport>Must be placed on a wall or rock.</PPR.onsupport>
+  <PPR.walkable>Must be facing a walkable tile.</PPR.walkable>
+  <PPR.existing>Identical building already exists.</PPR.existing>
+</LanguageData>
