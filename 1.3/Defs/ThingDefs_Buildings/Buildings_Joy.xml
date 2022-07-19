@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <ThingDef ParentName="MinifiedThing">
+    <defName>MinifiedWallPainting</defName>
+    <label>minified wall painting</label>
+    <thingClass>PawnsPaintRestored.MinifiedWallPainting</thingClass>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="BuildingBase" Name="PaintingBase" Abstract="True">
     <thingClass>Building_Art</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <useHitPoints>true</useHitPoints>
+    <socialPropernessMatters>true</socialPropernessMatters>
     <thingCategories>
       <li>BuildingsArt</li>
     </thingCategories>
@@ -21,6 +30,8 @@
         <descriptionMaker>ArtDescription_Painting</descriptionMaker>
       </li>
     </comps>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
@@ -41,6 +52,10 @@
         </categories>
       </defaultIngredientFilter>
     </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
   </ThingDef>
   <ThingDef ParentName="PaintingBase">
     <defName>Painting</defName>
@@ -52,15 +67,12 @@
       <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
     </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
     <rotatable>false</rotatable>
     <fillPercent>0.15</fillPercent>
     <altitudeLayer>Building</altitudeLayer>
-    <hasInteractionCell>true</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <WorkToBuild>18000</WorkToBuild>
       <MaxHitPoints>75</MaxHitPoints>
@@ -69,18 +81,9 @@
       <Beauty>40</Beauty>
       <JoyGainFactor>1</JoyGainFactor>
     </statBases>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableWriting</li>
-      </recipeUsers>
-    </recipeMaker>
     <costList>
       <WoodLog>15</WoodLog>
     </costList>
-    <stuffCategories>
-      <li>Fabric</li>
-    </stuffCategories>
-    <costStuffCount>25</costStuffCount>
   </ThingDef>
   <ThingDef ParentName="PaintingBase">
     <defName>PaintingOnWall</defName>
@@ -90,20 +93,18 @@
       <texPath>Things/Building/Art/Wallart</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawRotated>false</drawRotated>
-      <drawOffset>(0,0,-0.3)</drawOffset>
+      <drawOffsetNorth>(0,0,-0.3)</drawOffsetNorth>
+      <drawOffsetEast>(-0.1,0,0.2)</drawOffsetEast>
+      <drawOffsetWest>(0.1,0,0.2)</drawOffsetWest>
+      <drawOffsetSouth>(0,0,0.2)</drawOffsetSouth>
       <drawSize>0.75</drawSize>
     </graphicData>
-    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedWallPainting</minifiedDef>
     <defaultPlacingRot>North</defaultPlacingRot>
     <fillPercent>0.1</fillPercent>
-    <hasInteractionCell>true</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>Standable</passability>
     <pathCost>0</pathCost>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <socialPropernessMatters>true</socialPropernessMatters>
     <clearBuildingArea>false</clearBuildingArea>
     <building>
       <isEdifice>false</isEdifice>
@@ -116,18 +117,9 @@
       <Beauty>35</Beauty>
       <JoyGainFactor>0.9</JoyGainFactor>
     </statBases>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableWriting</li>
-      </recipeUsers>
-    </recipeMaker>
     <costList>
       <WoodLog>5</WoodLog>
     </costList>
-    <stuffCategories>
-      <li>Fabric</li>
-    </stuffCategories>
-    <costStuffCount>25</costStuffCount>
     <placeWorkers>
       <li>PawnsPaintRestored.Painting_PlaceWorker</li>
     </placeWorkers>

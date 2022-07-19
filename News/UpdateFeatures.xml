@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="PawnsPaintRestored_UpdateFeatureBase">
+		<modNameReadable>PawnsPaintRestored</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2449797994</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="PawnsPaintRestored_UpdateFeatureBase">
+		<defName>PawnsPaintRestored_1_3_3</defName>
+		<assemblyVersion>1.3.3</assemblyVersion>
+		<content>This version adds rotation support for the wall-hung paintings.
+If you have added custom images to the random wall-art you will need to add the east/west/south textures for the rotation to work. 
+There are a template in the Source-folder in the GitHub-project linked from the mod-page. 
+There is also two bimp-templates for automating this using the BIMP plugin for GIMP: https://alessandrofrancesconi.it/projects/bimp
+For support you can always ask on the Discord-server linked on the mod-page.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

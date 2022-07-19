@@ -26,7 +26,7 @@ public class Painting_PlaceWorker : PlaceWorker
             return "PPR.onsupport".Translate();
         }
 
-        c = loc + IntVec3.South;
+        c = loc + rot.Opposite.FacingCell;
         if (!c.Walkable(map))
         {
             return "PPR.walkable".Translate();
@@ -35,7 +35,7 @@ public class Painting_PlaceWorker : PlaceWorker
         var currentBuildings = loc.GetThingList(map);
         foreach (var building in currentBuildings)
         {
-            if (building?.def?.defName != "WallmountedBattery")
+            if (building?.def?.defName.StartsWith("Painting") == false)
             {
                 continue;
             }

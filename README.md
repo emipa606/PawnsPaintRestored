@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1541281528
 
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=1537873717]Selectable Sculpture Graphic
 - Added trading-tags
+- Added wall mountable paintings, slightly smaller
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -113,6 +114,7 @@ Your harddrive:\Program Files (x86)\Steam\SteamApps\workshop\content\294100\9172
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

@@ -1,0 +1,18 @@
+#BIMP 2.6
+#MANIPULATION SET DEFINITION
+
+[USERDEF0]
+procedure=gimp-item-transform-perspective
+num_params=9
+PARAM0=NOT_USED
+PARAM1=34
+PARAM2=52
+PARAM3=34
+PARAM4=5
+PARAM5=76
+PARAM6=69
+PARAM7=76
+PARAM8=22
+
+[RENAME]
+pattern=$$_west
