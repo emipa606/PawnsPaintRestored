@@ -1,5 +1,9 @@
 # Changelog for PawnsPaintRestored
 
+1.4.1 - Mod updated for 1.4 and passed autotests.
+LanguageData Used DeepL to update translations for ChineseSimplified
+
+
 1.3.3 - Added rotation support for the wallhung paintings
 
 

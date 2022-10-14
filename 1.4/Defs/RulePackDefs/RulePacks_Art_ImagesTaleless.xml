@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>TalelessImages</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- pawns -->
+        <li>image-&gt;a solitary [Character] [desc_pawn]</li>
+        <li>image-&gt;a solitary [Character] [desc_pawn] near a [TerrainFeature]</li>
+        <li>image-&gt;a solitary [Character] [desc_pawn] near a [Community]</li>
+        <li>image-&gt;a [Character] [desc_pawn] surrounded by [Character]s</li>
+        <li>image-&gt;[Character]s playing [Game]</li>
+        <li>image-&gt;a [Character] [desc_pawn] playing [Game] with [Quantity_adjphrase] [Character]s</li>
+        <li>image-&gt;a [Character] [desc_pawn] holding a [Weapon]</li>
+        <li>image-&gt;a [Character] [desc_pawn] eating a [Vegetable]</li>
+        <li>image-&gt;[Quantity_adjphrase] [PersonJob]s and [PersonJob]s eating [Vegetable]s together</li>
+        <li>image-&gt;the minor celebrity [NamePerson] [desc_pawn]</li>
+        <li>image-&gt;a [Character] wearing a [Apparel] [desc_pawn]</li>
+        <!-- terrain -->
+        <li>image-&gt;a [Community]</li>
+        <li>image-&gt;a [TerrainFeature]</li>
+        <!-- objects -->
+        <li>image-&gt;a [Weapon]</li>
+        <li>image-&gt;a [TreeType] tree</li>
+        <li>image-&gt;a [NaturalObject]</li>
+        <li>image-&gt;[Quantity_adjphrase] [Weapon]s</li>
+        <li>image-&gt;[Quantity_adjphrase] [Vegetable]s</li>
+        <li>image-&gt;an empty [Apparel]</li>
+        <!-- abstract -->
+        <li>image-&gt;a [Shape]</li>
+        <li>image-&gt;a [Shape] surrounded by [Shape]s</li>
+        <li>image-&gt;an abstracted rendering of [ConceptAny]</li>
+        <li>image-&gt;a [AdjectiveAny] abstract shape</li>
+        <li>desc_pawn(p=12)-&gt;</li>
+        <li>desc_pawn-&gt;flying through the air</li>
+        <li>desc_pawn-&gt;suspended in the air</li>
+        <li>desc_pawn-&gt;moving to the left</li>
+        <li>desc_pawn-&gt;moving to the right</li>
+        <li>desc_pawn-&gt;sitting on a table</li>
+        <li>desc_pawn-&gt;seen through a looking glass</li>
+        <li>desc_pawn-&gt;rendered in silhouette</li>
+        <li>desc_pawn-&gt;riding on a [Animal] wearing a [Apparel]</li>
+        <li>desc_pawn-&gt;looking [AdjectiveAny]</li>
+        <li>desc_pawn-&gt;covered in [Gore]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

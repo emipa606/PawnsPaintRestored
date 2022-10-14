@@ -8,6 +8,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1541281528
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=1537873717]Selectable Sculpture Graphic
 - Added trading-tags
 - Added wall mountable paintings, slightly smaller
+- Added rotation-support for the wall mountable paintings
+
+To add your own wall-mounted paintings there is a template https://github.com/emipa606/PawnsPaintRestored/tree/main/Source]here as well as two BIMP-templates to automate it using the https://alessandrofrancesconi.it/projects/bimp]BIMP plugin to GIMP.
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
