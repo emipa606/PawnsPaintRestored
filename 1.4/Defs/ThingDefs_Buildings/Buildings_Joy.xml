@@ -30,8 +30,8 @@
         <descriptionMaker>ArtDescription_Painting</descriptionMaker>
       </li>
     </comps>
-    <hasInteractionCell>true</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <!-- <hasInteractionCell>true</hasInteractionCell> -->
+    <!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>

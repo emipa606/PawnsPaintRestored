@@ -2,10 +2,11 @@
 <Defs>
   <JoyGiverDef>
     <defName>ViewPainting</defName>
-    <giverClass>JoyGiver_InteractBuildingInteractionCell</giverClass>
+    <giverClass>PawnsPaintRestored.JoyGiver_InteractPainting</giverClass>
     <baseChance>1.4</baseChance>
     <thingDefs>
       <li>Painting</li>
+      <li>PaintingOnWall</li>
     </thingDefs>
     <jobDef>ViewPainting</jobDef>
     <joyKind>Meditative</joyKind>
