@@ -55,7 +55,7 @@
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
-    <costStuffCount>25</costStuffCount>
+    <costStuffCount>20</costStuffCount>
   </ThingDef>
   <ThingDef ParentName="PaintingBase">
     <defName>Painting</defName>
@@ -83,6 +83,7 @@
     </statBases>
     <costList>
       <WoodLog>15</WoodLog>
+      <Dye>1</Dye>
     </costList>
   </ThingDef>
   <ThingDef ParentName="PaintingBase">
@@ -119,6 +120,7 @@
     </statBases>
     <costList>
       <WoodLog>5</WoodLog>
+      <Dye>1</Dye>
     </costList>
     <placeWorkers>
       <li>PawnsPaintRestored.Painting_PlaceWorker</li>
