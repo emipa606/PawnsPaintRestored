@@ -30,8 +30,6 @@
         <descriptionMaker>ArtDescription_Painting</descriptionMaker>
       </li>
     </comps>
-    <!-- <hasInteractionCell>true</hasInteractionCell> -->
-    <!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
@@ -90,6 +88,7 @@
     <defName>PaintingOnWall</defName>
     <label>wallhung painting</label>
     <description>Slightly smaller painting with a wallmount. It's very calming to look at.</description>
+    <thingClass>PawnsPaintRestored.Building_WallHungPainting</thingClass>
     <graphicData>
       <texPath>Things/Building/Art/Wallart</texPath>
       <graphicClass>Graphic_Random</graphicClass>

@@ -1,5 +1,8 @@
 # Changelog for PawnsPaintRestored
 
+1.4.4 - Wall-hung paintings should now affect the beauty and wealth of the room they are facing.
+
+
 1.4.3 - Added dye to ingredients for paintings since its vanilla, idea by ttr
 
 
