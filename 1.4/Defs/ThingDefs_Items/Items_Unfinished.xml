@@ -3,6 +3,7 @@
   <ThingDef ParentName="UnfinishedBase">
     <defName>UnfinishedPainting</defName>
     <label>unfinished painting</label>
+    <description>This  work of art is not finished yet, prioritize the pawn that started the job to let it finish the painting before making a new painting</description>
     <graphicData>
       <texPath>Things/Item/UnfinishedPainting</texPath>
       <graphicClass>Graphic_Single</graphicClass>

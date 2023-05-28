@@ -119,4 +119,4 @@ Your harddrive:\Program Files (x86)\Steam\SteamApps\workshop\content\294100\9172
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2449797994]Last updated 2023-03-30
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2449797994]Last updated 2023-05-28

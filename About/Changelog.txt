@@ -1,5 +1,8 @@
 # Changelog for PawnsPaintRestored
 
+1.4.5 - Unfinished paintings now have a description
+
+
 1.4.4 - Wall-hung paintings should now affect the beauty and wealth of the room they are facing.
 
 
