@@ -7,7 +7,7 @@ namespace PawnsPaintRestored;
 
 public class JoyGiver_InteractPainting : JoyGiver_InteractBuilding
 {
-    private static readonly List<Thing> tmpCandidates = new List<Thing>();
+    private static readonly List<Thing> tmpCandidates = [];
 
     protected override Job TryGivePlayJob(Pawn pawn, Thing t)
     {
@@ -37,11 +37,6 @@ public class JoyGiver_InteractPainting : JoyGiver_InteractBuilding
             return null;
         }
 
-        float Selector(Thing thing)
-        {
-            return pawn.Position.DistanceTo(thing.Position + IntVec3.South.RotatedBy(thing.Rotation));
-        }
-
         tmpCandidates.SortBy(Selector);
 
         foreach (var tmpCandidate in tmpCandidates)
@@ -55,5 +50,10 @@ public class JoyGiver_InteractPainting : JoyGiver_InteractBuilding
         }
 
         return null;
+
+        float Selector(Thing thing)
+        {
+            return pawn.Position.DistanceTo(thing.Position + IntVec3.South.RotatedBy(thing.Rotation));
+        }
     }
 }

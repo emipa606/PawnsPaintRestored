@@ -27,7 +27,8 @@ public class MinifiedWallPainting : MinifiedThing
         }
     }
 
-    public override void DrawAt(Vector3 drawLoc, bool flip = false)
+
+    protected override void DrawAt(Vector3 drawLoc, bool flip = false)
     {
         CrateFrontGraphic.DrawFromDef(drawLoc + (Altitudes.AltIncVect * 0.1f), Rot4.North, null);
         Graphic.Draw(drawLoc, Rot4.North, this);

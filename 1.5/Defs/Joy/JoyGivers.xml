@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JoyGiverDef>
+    <defName>ViewPainting</defName>
+    <giverClass>PawnsPaintRestored.JoyGiver_InteractPainting</giverClass>
+    <baseChance>1.4</baseChance>
+    <thingDefs>
+      <li>Painting</li>
+      <li>PaintingOnWall</li>
+    </thingDefs>
+    <jobDef>ViewPainting</jobDef>
+    <joyKind>Meditative</joyKind>
+    <!-- <unroofedOnly>true</unroofedOnly> -->
+    <requiredCapacities>
+      <li>Sight</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>

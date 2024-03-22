@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Different physical description roots for different kinds of artworks. 
+      Added to artworks with tales and taleless art.-->
+  <RulePackDef>
+    <defName>ArtDescription_Painting</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root-&gt;The painting is drawn with a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root-&gt;The painting bears a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root-&gt;The colors in this painting [depicts] [image]. [desc_sentence_group]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>
