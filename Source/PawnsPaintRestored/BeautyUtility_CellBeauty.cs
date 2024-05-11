@@ -5,10 +5,10 @@ using Verse;
 
 namespace PawnsPaintRestored;
 
-[HarmonyPatch(typeof(BeautyUtility), "CellBeauty")]
+[HarmonyPatch(typeof(BeautyUtility), nameof(BeautyUtility.CellBeauty))]
 public static class BeautyUtility_CellBeauty
 {
-    public static void Postfix(IntVec3 c, Map map, ref List<Thing> countedThings, ref float __result)
+    public static void Postfix(IntVec3 c, Map map, ref HashSet<Thing> countedThings, ref float __result)
     {
         var possiblePaintnings = map.listerThings.ThingsOfDef(ThingDefOf.PaintingOnWall);
 
@@ -17,6 +17,7 @@ public static class BeautyUtility_CellBeauty
             return;
         }
 
+        var outdoors = c.GetRoom(map)?.PsychologicallyOutdoors ?? true;
         foreach (var possiblePainting in possiblePaintnings)
         {
             if (c != possiblePainting.Position + possiblePainting.Rotation.Opposite.FacingCell)
@@ -24,12 +25,17 @@ public static class BeautyUtility_CellBeauty
                 continue;
             }
 
-            if (countedThings.Contains(possiblePainting))
+            if (countedThings?.Contains(possiblePainting) == true)
             {
                 continue;
             }
 
-            __result += possiblePainting.GetStatValue(StatDefOf.Beauty);
+            __result += possiblePainting.GetBeauty(outdoors);
+            if (countedThings == null)
+            {
+                countedThings = [];
+            }
+
             countedThings.Add(possiblePainting);
         }
     }

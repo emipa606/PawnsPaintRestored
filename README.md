@@ -1,23 +1,20 @@
-# PawnsPaintRestored
+# [Pawns Paint! Restored (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2449797994)
 
 ![Image](https://i.imgur.com/buuPQel.png)
-
 Update of Faeldray, original by Willelbinis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1541281528
 
-- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=1537873717]Selectable Sculpture Graphic
+- Added support for [https://steamcommunity.com/sharedfiles/filedetails/?id=1537873717](Selectable Sculpture Graphic)
 - Added trading-tags
 - Added wall mountable paintings, slightly smaller
 - Added rotation-support for the wall mountable paintings
 
-To add your own wall-mounted paintings there is a template https://github.com/emipa606/PawnsPaintRestored/tree/main/Source]here as well as two BIMP-templates to automate it using the https://alessandrofrancesconi.it/projects/bimp]BIMP plugin to GIMP.
+To add your own wall-mounted paintings there is a template [https://github.com/emipa606/PawnsPaintRestored/tree/main/Source]here[/url] as well as two BIMP-templates to automate it using the [url=https://alessandrofrancesconi.it/projects/bimp](BIMP) plugin to GIMP.
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
-**Pawns Paint! Restored** is a variation/continuation of the amazing https://steamcommunity.com/sharedfiles/filedetails/?id=917248300]Pawns Paint! by https://steamcommunity.com/id/Wumbi77]WillieLambo. When Willie was unable to continue updating it, I really missed it in my games so I made a version for my own personal use. After getting Wille's approval, I'm now sharing it on the Workshop for all to enjoy!
+**Pawns Paint! Restored** is a variation/continuation of the amazing [https://steamcommunity.com/sharedfiles/filedetails/?id=917248300]Pawns Paint![/url] by [url=https://steamcommunity.com/id/Wumbi77](WillieLambo). When Willie was unable to continue updating it, I really missed it in my games so I made a version for my own personal use. After getting Wille's approval, I'm now sharing it on the Workshop for all to enjoy!
 
 The only major difference between my version and Willie's is that I changed the paintings to be all real-life public domain paintings.
 
@@ -26,9 +23,9 @@ The only major difference between my version and Willie's is that I changed the 
 You can change them! They are located in the following folder on your hard drive:
 **Steam installation location\SteamApps\workshop\content\294100\2449797994\Textures\Things\Building\Art**
 
-If you'd like to make your own paintings, you can https://github.com/faeldray/PawnsPaintRestored/releases/tag/source]download templates that were made with paint.net and Photoshop. All of the paintings that get loaded into a game are located in your local "Painting" folder, so you can add or remove them in there.
+If you'd like to make your own paintings, you can [https://github.com/faeldray/PawnsPaintRestored/releases/tag/source](download templates) that were made with paint.net and Photoshop. All of the paintings that get loaded into a game are located in your local "Painting" folder, so you can add or remove them in there.
 
-If you want Wille's paintings back, download and unzip https://github.com/faeldray/PawnsPaintRestored/releases/tag/paintings]this file, delete the "Painting" folder on your computer, and paste the new "Painting" folder in its place.
+If you want Wille's paintings back, download and unzip [https://github.com/faeldray/PawnsPaintRestored/releases/tag/paintings](this file), delete the "Painting" folder on your computer, and paste the new "Painting" folder in its place.
 
 # Possible future features
 
@@ -45,7 +42,7 @@ If you want Wille's paintings back, download and unzip https://github.com/faeldr
 
 
 
-- https://github.com/faeldray/PawnsPaintRestored/releases]Github
+- [https://github.com/faeldray/PawnsPaintRestored/releases](Github)
 
 
 
@@ -53,8 +50,8 @@ If you want Wille's paintings back, download and unzip https://github.com/faeldr
 
 
 
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1503685494]Beta 19
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1380798383]Beta 18
+- [https://steamcommunity.com/sharedfiles/filedetails/?id=1503685494](Beta 19)
+- [https://steamcommunity.com/sharedfiles/filedetails/?id=1380798383](Beta 18)
 
 
 
@@ -62,8 +59,8 @@ If you want Wille's paintings back, download and unzip https://github.com/faeldr
 
 
 
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1638624908]Forbidden Temperatures - Allows your campfires, passive coolers, and torch lamps to be forbiddable.
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1541281864]Where's the gravel? - Make gravel (AKA poor soil) much easier to see https://steamcommunity.com/sharedfiles/filedetails/?id=1541282175](Also in available in gray)
+- [https://steamcommunity.com/sharedfiles/filedetails/?id=1638624908](Forbidden Temperatures) - Allows your campfires, passive coolers, and torch lamps to be forbiddable.
+- [https://steamcommunity.com/sharedfiles/filedetails/?id=1541281864]Where's the gravel?[/url] - Make gravel (AKA poor soil) much easier to see [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1541282175]((Also in available in gray))
 
 
 
@@ -71,8 +68,8 @@ If you want Wille's paintings back, download and unzip https://github.com/faeldr
 
 
 
-- All credit goes to https://steamcommunity.com/id/Wumbi77]WillieLambo for making this wonderful mod. I just updated it.
-- https://steamcommunity.com/profiles/76561198380853165]ThirdEye for the Simplified Chinese translation.
+- All credit goes to [https://steamcommunity.com/id/Wumbi77](WillieLambo) for making this wonderful mod. I just updated it.
+- [https://steamcommunity.com/profiles/76561198380853165](ThirdEye) for the Simplified Chinese translation.
 
 
 
@@ -110,16 +107,14 @@ Your harddrive:\Program Files (x86)\Steam\SteamApps\workshop\content\294100\9172
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
-
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2449797994]![Image](https://img.shields.io/github/v/release/emipa606/PawnsPaintRestored?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[https://steamcommunity.com/sharedfiles/filedetails/changelog/2449797994]![Image]((https://img.shields.io/github/v/release/emipa606/PawnsPaintRestored?label=latest%20version&style=plastic&color=9f1111&labelColor=black))

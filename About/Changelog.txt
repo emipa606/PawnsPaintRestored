@@ -1,5 +1,8 @@
 # Changelog for PawnsPaintRestored
 
+1.5.1 - Fix for crash regarding cell beauty
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

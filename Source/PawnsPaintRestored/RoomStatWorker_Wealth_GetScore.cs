@@ -5,7 +5,7 @@ using Verse;
 
 namespace PawnsPaintRestored;
 
-[HarmonyPatch(typeof(RoomStatWorker_Wealth), "GetScore")]
+[HarmonyPatch(typeof(RoomStatWorker_Wealth), nameof(RoomStatWorker_Wealth.GetScore))]
 public static class RoomStatWorker_Wealth_GetScore
 {
     public static void Postfix(Room room, ref float __result)

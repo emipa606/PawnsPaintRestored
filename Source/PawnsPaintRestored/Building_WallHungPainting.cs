@@ -13,12 +13,12 @@ public class Building_WallHungPainting : Building_Art
             return;
         }
 
-        (Position + Rotation.Opposite.FacingCell).GetRoom(Map).Notify_ContainedThingSpawnedOrDespawned(this);
+        (Position + Rotation.Opposite.FacingCell).GetRoom(Map)?.Notify_ContainedThingSpawnedOrDespawned(this);
     }
 
     public override void DeSpawn(DestroyMode mode = DestroyMode.Vanish)
     {
-        (Position + Rotation.Opposite.FacingCell).GetRoom(Map).Notify_ContainedThingSpawnedOrDespawned(this);
+        (Position + Rotation.Opposite.FacingCell).GetRoom(Map)?.Notify_ContainedThingSpawnedOrDespawned(this);
         base.DeSpawn(mode);
     }
 }
