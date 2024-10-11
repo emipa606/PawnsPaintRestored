@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[LC] Selectable Sculpture Graphic</li>
+      <li>Selectable Sculpture Graphic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[@Name = "PaintingBase"]/comps</xpath>
+      <value>
+        <li>
+          <compClass>SelectableSculptureGraphic.CompSculpture</compClass>
+        </li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
