@@ -11,6 +11,7 @@
     <li>1.3</li>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -134,5 +135,5 @@ Your harddrive:\Program Files (x86)\Steam\SteamApps\workshop\content\294100\9172
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2449797994][img]https://img.shields.io/github/v/release/emipa606/PawnsPaintRestored?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: beauty, easel, recreation, paint, decoration</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.2</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
 </ModMetaData>

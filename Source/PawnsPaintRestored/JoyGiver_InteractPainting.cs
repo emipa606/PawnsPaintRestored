@@ -24,11 +24,11 @@ public class JoyGiver_InteractPainting : JoyGiver_InteractBuilding
 
     public override Job TryGiveJob(Pawn pawn)
     {
-        var thing = FindBestPainting(pawn);
+        var thing = findBestPainting(pawn);
         return thing != null ? TryGivePlayJob(pawn, thing) : null;
     }
 
-    private Thing FindBestPainting(Pawn pawn)
+    private Thing findBestPainting(Pawn pawn)
     {
         tmpCandidates.Clear();
         GetSearchSet(pawn, tmpCandidates);
@@ -37,13 +37,13 @@ public class JoyGiver_InteractPainting : JoyGiver_InteractBuilding
             return null;
         }
 
-        tmpCandidates.SortBy(Selector);
+        tmpCandidates.SortBy(selector);
 
         foreach (var tmpCandidate in tmpCandidates)
         {
-            var postitionToCheck = tmpCandidate.Position + IntVec3.South.RotatedBy(tmpCandidate.Rotation);
+            var positionToCheck = tmpCandidate.Position + IntVec3.South.RotatedBy(tmpCandidate.Rotation);
 
-            if (pawn.CanReach(new LocalTargetInfo(postitionToCheck), PathEndMode.OnCell, Danger.None))
+            if (pawn.CanReach(new LocalTargetInfo(positionToCheck), PathEndMode.OnCell, Danger.None))
             {
                 return tmpCandidate;
             }
@@ -51,7 +51,7 @@ public class JoyGiver_InteractPainting : JoyGiver_InteractBuilding
 
         return null;
 
-        float Selector(Thing thing)
+        float selector(Thing thing)
         {
             return pawn.Position.DistanceTo(thing.Position + IntVec3.South.RotatedBy(thing.Rotation));
         }

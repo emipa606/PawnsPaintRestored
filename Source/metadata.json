@@ -2,7 +2,7 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "SearchTags": [
     "beauty",
@@ -10,5 +10,12 @@
     "recreation",
     "paint",
     "decoration"
-  ]
+  ],
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 9524,
+  "LinesOfXML": 24012,
+  "CodeBaseSize": 72,
+  "LastXmlCleaning": "2025-07-06T21:22:37.3511143+02:00"
 }

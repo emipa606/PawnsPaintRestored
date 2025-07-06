@@ -18,10 +18,7 @@ public class MinifiedWallPainting : MinifiedThing
     {
         get
         {
-            if (crateFrontGraphic == null)
-            {
-                crateFrontGraphic = LoadCrateFrontGraphic();
-            }
+            crateFrontGraphic ??= LoadCrateFrontGraphic();
 
             return crateFrontGraphic;
         }
